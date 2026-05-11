@@ -1,0 +1,11 @@
+var $ = 10;
+var _a=12;
+var p=10;
+var a123=34;
+//no var 123=56;//
+var Name ="Priyaa"
+var name ="Sam";
+//no var shan pri ="hello";//
+var shan_Name ="Priyaa";
+var Name$priyaa ="Priyaa";
+var Name123="Priyaa";
