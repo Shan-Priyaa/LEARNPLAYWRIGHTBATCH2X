@@ -9,6 +9,7 @@ This repository contains learning materials and code examples for **Playwright w
 | `chapter_01_Basics/` | Basics of JavaScript and setup verification |
 | `chapter_02_Javascript_Concepts/` | JavaScript concepts (placeholder) |
 | `chapter_03_Identifier_Literals/` | Identifier rules, literals, and VS Code shortcuts |
+| `chapter_04_Javascript_Concepts/` | JavaScript concepts: var/let/const, functions, scope, hoisting |
 | `05_JS_Basics.js` | Variable declarations using `var` |
 | `06_identifier_Rules.js` | JavaScript identifier naming rules |
 | `07_Identifiers_Part2.js` | More on identifiers |
