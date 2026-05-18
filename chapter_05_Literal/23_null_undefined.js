@@ -1,90 +1,110 @@
-// ============================================
-// null vs undefined in JavaScript
-// ============================================
+// ============================================================
+// Topic: null vs undefined in JavaScript
+// File: 23_null_undefined.js
+// ============================================================
 
 /*
-  SIMPLE EXPLANATION:
-  -------------------
-  
-  | undefined                                      | null                                              |
-  |------------------------------------------------|---------------------------------------------------|
-  | Means "value is missing" (not assigned yet)    | Means "value is empty" (assigned by developer)    |
-  | JavaScript gives this automatically            | Developer gives this intentionally                |
-  | Type is "undefined"                            | Type is "object" (this is a known JS bug/quirk)  |
-  | Example: variable declared but not assigned    | Example: variable intentionally cleared/empty     |
+  SIMPLE DEFINITIONS:
 
+  undefined  ->  A variable exists, but it has not been assigned any value yet.
+                 JavaScript itself sets this automatically.
+
+  null       ->  A variable exists, but the developer explicitly assigns "no value" or "empty".
+                 It is intentional absence of any value.
 */
 
-// -------------------------------
-// 1. undefined - JS gives this
-// -------------------------------
 
-let name;
-console.log("Value:", name);           // undefined
-console.log("Type:", typeof name);     // "undefined"
-// Why? Because we declared 'name' but never put a value in it.
+// --------------------------------------------------------
+// 1. undefined
+// --------------------------------------------------------
+
+let userName; // declared but not assigned
+console.log(userName);        // undefined
+console.log(typeof userName); // "undefined"
 
 function greet() {
     // no return statement
 }
-let result = greet();
-console.log("Function with no return:", result);  // undefined
-
-let person = {};
-console.log("Missing property:", person.age);   // undefined
+console.log(greet());         // undefined
 
 
-// -------------------------------
-// 2. null - Developer gives this
-// -------------------------------
+// --------------------------------------------------------
+// 2. null
+// --------------------------------------------------------
 
-let phone = "iPhone";
-phone = null;                          // developer says "no phone now"
-console.log("Value:", phone);           // null
-console.log("Type:", typeof phone);    // "object" (this is a JS quirk!)
+let profilePicture = null; // developer explicitly says "no picture yet"
+console.log(profilePicture);        // null
+console.log(typeof profilePicture); // "object"  <-- known JS quirk!
 
-let car = null;                        // developer knows there is no car yet
-console.log("Car:", car);              // null
-
-
-// -------------------------------
-// 3. Quick Comparison
-// -------------------------------
-
-console.log("\n--- Comparison ---");
-console.log("undefined == null  :", undefined == null);    // true  (loose check - both are "empty")
-console.log("undefined === null :", undefined === null);   // false (strict check - different types)
+let score = 100;
+score = null; // developer clears the value intentionally
+console.log(score); // null
 
 
-// -------------------------------
-// 4. Memory Analogy
-// -------------------------------
+// --------------------------------------------------------
+// 3. Key Differences (Summary Table)
+// --------------------------------------------------------
 
 /*
-  Think of a box:
-  
-  undefined = The box exists but you haven't put anything inside yet.
-              JS creates the box but leaves it empty.
-  
-  null      = You looked inside the box, took everything out, 
-              and put a label saying "EMPTY".
-              You intentionally made it empty.
+  | Feature              | undefined                     | null                           |
+  |----------------------|-------------------------------|--------------------------------|
+  | Meaning              | Not assigned yet              | Intentionally empty            |
+  | Who sets it?         | JavaScript automatically      | Developer manually             |
+  | Type                 | undefined                     | object (historical bug in JS)  |
+  | == comparison        | null == undefined  -> true    |                                |
+  | === comparison       | null === undefined -> false   |                                |
 */
 
 
-// -------------------------------
+// --------------------------------------------------------
+// 4. Practical Comparisons
+// --------------------------------------------------------
+
+let a;
+let b = null;
+
+console.log(a == b);   // true  (loose equality sees them as similar)
+console.log(a === b);  // false (strict equality: different types)
+
+console.log(typeof a); // "undefined"
+console.log(typeof b); // "object"
+
+
+// --------------------------------------------------------
 // 5. When to use what?
-// -------------------------------
+// --------------------------------------------------------
 
 /*
-  Use undefined:  Usually you don't need to assign this yourself.
-                  JS handles it.
-  
-  Use null:       When you WANT to say "this has no value on purpose".
-                  Example: resetting a variable, clearing an object reference.
+  Use undefined:
+  - When checking if a variable/property has been initialized.
+  - Let JS handle it; don’t assign undefined manually.
+
+  Use null:
+  - When you want to deliberately clear or reset a value.
+  - When a function should return "nothing" on purpose.
+  - To represent an empty or unknown object reference.
 */
 
-let user = { name: "Shan" };
-user = null;   // "I had a user, now I don't"
 
-let score;     // "I will have a score later, but not now"
+// --------------------------------------------------------
+// 6. Quick Check Function
+// --------------------------------------------------------
+
+function checkValue(value) {
+    if (value === undefined) {
+        return "Value is undefined (not assigned yet)";
+    }
+    if (value === null) {
+        return "Value is null (explicitly empty)";
+    }
+    return "Value is: " + value;
+}
+
+console.log(checkValue());           // undefined
+console.log(checkValue(null));       // null
+console.log(checkValue("hello"));    // hello
+
+
+// ============================================================
+// END
+// ============================================================

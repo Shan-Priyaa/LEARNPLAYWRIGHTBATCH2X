@@ -10,7 +10,7 @@ This repository contains learning materials and code examples for **Playwright w
 | `chapter_02_Javascript_Concepts/` | JavaScript basics: variable declarations using `var` |
 | `chapter_03_Identifier_Literals/` | Identifier rules, literals, VS Code shortcuts, and comments |
 | `chapter_04_Javascript_Concepts/` | JavaScript concepts: var/let/const, functions, scope, hoisting |
-| `chapter_05_Literal/` | Literals and null vs undefined |
+| `chapter_05_Literal/` | Literals, null vs undefined, strings, numbers, and backtick usage |
 
 ## 🚀 Getting Started
 
