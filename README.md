@@ -11,7 +11,7 @@ This repository contains learning materials and code examples for **Playwright w
 | `chapter_03_Identifier_Literals/` | Identifier rules, literals, VS Code shortcuts, and comments |
 | `chapter_04_Javascript_Concepts/` | JavaScript concepts: var/let/const, functions, scope, hoisting |
 | `chapter_05_Literal/` | Literals, null vs undefined, strings, numbers, and backtick usage |
-| `chapter_04_Javascript_Concepts/chapter_06_Operator/` | Operators: arithmetic, modulus, exponent, comparison, logical, string concatenation |
+| `chapter_06_Operator/` | Operators: arithmetic, modulus, exponent, comparison, logical, string concatenation |
 
 ## 🚀 Getting Started
 
