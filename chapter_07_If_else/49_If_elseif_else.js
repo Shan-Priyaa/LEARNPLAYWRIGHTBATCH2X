@@ -1,4 +1,4 @@
-let score = 78;
+let score = 88;
 
 if (score >= 90) {
     console.log("A");
