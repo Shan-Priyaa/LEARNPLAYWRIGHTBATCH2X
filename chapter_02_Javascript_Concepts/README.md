@@ -1,9 +1,11 @@
 # 📗 Chapter 02 — JavaScript Concepts
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Beginner-brightgreen)
+![Topic](https://img.shields.io/badge/Topic-Variables-informational)
 
-This chapter introduces fundamental JavaScript concepts, starting with variable declarations.
+This chapter introduces fundamental JavaScript concepts, starting with variable declarations. Lay the foundation for everything to come! 🏗️
 
 ---
 

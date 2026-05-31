@@ -3,8 +3,9 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Intermediate-orange)
+![Topic](https://img.shields.io/badge/Topic-IO%20%26%20Input-informational)
 
-Learn how to accept **user input** in Node.js using `prompt`, `readline`, and `prompt-sync`.
+Learn how to accept **user input** in Node.js using `prompt`, `readline`, and `prompt-sync`. Make your programs interactive! 🖱️
 
 ---
 

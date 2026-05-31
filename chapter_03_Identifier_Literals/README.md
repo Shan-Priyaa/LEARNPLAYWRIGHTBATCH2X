@@ -1,9 +1,11 @@
 # 📙 Chapter 03 — Identifier & Literals
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Beginner-blue)
+![Topic](https://img.shields.io/badge/Topic-Naming%20%26%20Syntax-informational)
 
-This chapter dives into **identifier rules**, **literals**, **comments**, and useful **VS Code shortcuts**.
+This chapter dives into **identifier rules**, **literals**, **comments**, and useful **VS Code shortcuts**. Master the art of clean, readable code! ✨
 
 ---
 

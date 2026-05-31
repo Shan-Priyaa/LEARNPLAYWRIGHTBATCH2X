@@ -1,9 +1,11 @@
 # 📕 Chapter 04 — JavaScript Concepts Deep Dive
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Intermediate-orange)
+![Topic](https://img.shields.io/badge/Topic-Scope%20%26%20Hoisting-informational)
 
-This chapter explores `var`, `let`, `const`, **functions**, **scope**, and **hoisting**.
+This chapter explores `var`, `let`, `const`, **functions**, **scope**, and **hoisting**. Unlock the secrets of how JavaScript really works under the hood! 🔍
 
 ---
 

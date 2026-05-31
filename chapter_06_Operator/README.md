@@ -1,9 +1,11 @@
 # 📓 Chapter 06 — Operators
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Intermediate-orange)
+![Topic](https://img.shields.io/badge/Topic-Operators-informational)
 
-This chapter is all about **operators** in JavaScript — arithmetic, comparison, logical, ternary, and more!
+This chapter is all about **operators** in JavaScript — arithmetic, comparison, logical, ternary, and more! The toolkit for manipulating data! 🧰
 
 ---
 

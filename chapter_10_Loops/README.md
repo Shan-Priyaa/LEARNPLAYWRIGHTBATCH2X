@@ -1,9 +1,11 @@
 # 🔄 Chapter 10 — Loops
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Intermediate-orange)
+![Topic](https://img.shields.io/badge/Topic-Iteration-informational)
 
-This chapter covers all types of **loops** in JavaScript: `for`, `while`, `do...while`, `for...of`, and `for...in`. Plus plenty of IQ questions!
+This chapter covers all types of **loops** in JavaScript: `for`, `while`, `do...while`, `for...of`, and `for...in`. Plus plenty of IQ questions! Automate repetition like a pro! 🔁
 
 ---
 

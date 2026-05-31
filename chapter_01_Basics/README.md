@@ -1,9 +1,11 @@
 # 📘 Chapter 01 — Basics
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Beginner-brightgreen)
+![Topic](https://img.shields.io/badge/Topic-Fundamentals-informational)
 
-Welcome to **Chapter 01**! This chapter covers the absolute basics of JavaScript and verifies your setup.
+Welcome to **Chapter 01**! This chapter covers the absolute basics of JavaScript and verifies your setup. Let's start your coding journey! 🚀
 
 ---
 

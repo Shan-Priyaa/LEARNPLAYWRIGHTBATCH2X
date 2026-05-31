@@ -1,9 +1,11 @@
 # 📒 Chapter 05 — Literals
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Beginner-blue)
+![Topic](https://img.shields.io/badge/Topic-Data%20Types-informational)
 
-This chapter covers **literals**, `null` vs `undefined`, **strings**, **numbers**, and **backtick** usage.
+This chapter covers **literals**, `null` vs `undefined`, **strings**, **numbers**, and **backtick** usage. Understand every value type JavaScript has to offer! 🎯
 
 ---
 

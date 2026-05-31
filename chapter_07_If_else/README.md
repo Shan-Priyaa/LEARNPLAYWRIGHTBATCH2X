@@ -1,9 +1,11 @@
 # 🌈 Chapter 07 — If / Else Statements
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Intermediate-orange)
+![Topic](https://img.shields.io/badge/Topic-Conditionals-informational)
 
-This chapter covers **conditional statements** using `if`, `else if`, and `else`. You'll also solve real-world problems and IQ questions!
+This chapter covers **conditional statements** using `if`, `else if`, and `else`. You'll also solve real-world problems and IQ questions! Make your code make decisions! 🎲
 
 ---
 
