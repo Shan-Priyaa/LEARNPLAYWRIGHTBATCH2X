@@ -8,4 +8,6 @@ function countPassingJsBasicsChecks(results) {
     }
   }
   return c;
+  console.log(c);
 }
+console.log(countPassingJsBasicsChecks("character","stand_alone","pass","pass","fail"));

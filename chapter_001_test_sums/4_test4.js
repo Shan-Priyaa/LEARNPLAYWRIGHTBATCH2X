@@ -11,4 +11,4 @@ function getJsBasicsKeywordMeaning(term) {
   term = term.trim().toLowerCase();
   return term1[term] || "unknown";
 }
-getJsBasicsKeywordMeaning("variable");
+console.log(getJsBasicsKeywordMeaning("variable"));

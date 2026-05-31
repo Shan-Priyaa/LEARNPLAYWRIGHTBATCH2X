@@ -1,10 +1,12 @@
-function summarizeJsBasicsResults(results) {
+function summarizeJsBasicsResults(results) 
+{
   let passed = 0;
   let failed = 0;
   let skipped = 0;
-  for (results of results)
+  for (let result of results)
   {
-    result + result.toLowerCase();
+    result=result.toLowerCase();
+
     if (result.includes("pass")) {
       passed++;
     } else if (result.includes("fail")) {
@@ -14,6 +16,8 @@ function summarizeJsBasicsResults(results) {
     }
   }
   
+console.log(passed);
+console.log(failed);
+console.log(skipped);
 }
-console.log(summarizeJsBasicsResult(["PASS", "fail", "skip", "Pass", "FAIL"])
-);
+summarizeJsBasicsResults(["PASS", "fail", "skip", "Pass", "FAIL"]);

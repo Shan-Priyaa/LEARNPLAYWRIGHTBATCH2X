@@ -1,8 +1,8 @@
 function buildJsBasicsRunLabel(suiteName, environment, buildNumber) {
-  return suiteName.trim() +
+  return (suiteName.trim() +
     " | " +
     environment.toLowerCase() +
     " | build-" +
-    buildNumber;
+    buildNumber);
 }
-buildJsBasicsRunLabel("JS Basics,"Priyaa",37);
+console.log(buildJsBasicsRunLabel("JS_Basics","Priyaa", 37));

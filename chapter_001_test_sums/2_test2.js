@@ -6,10 +6,15 @@ function isValidJsBasicsIdentifier(name)
     return false;
   }
   name = name.trim();
-  if (name.length == 0)
+  if (name.length === 0)
   {
     return false;
   }
+  if (reservedWords.includes(name))
+  {return false;
+
+  }
   return /^[A-Za-z_$][A-Za-z0-9_$]*$/.test(name);
+  
 }
-isValidJsBasicsIdentifier("let")
+console.log(isValidJsBasicsIdentifier("let"));

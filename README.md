@@ -23,6 +23,9 @@ This repository contains learning materials and code examples for **Playwright w
 | 08 | [`chapter_08_Switch_Statement/`](chapter_08_Switch_Statement/) | `switch` statement, fall-through, grouping, API validation |
 | 09 | [`chapter_09_UserInput/`](chapter_09_UserInput/) | Accepting user input: `prompt`, `readline`, `prompt-sync` |
 | 10 | [`chapter_10_Loops/`](chapter_10_Loops/) | Loops: `for`, `while`, `do...while`, `for...of`, `for...in`, and IQ questions |
+| 001 | [`chapter_001_test_sums/`](chapter_001_test_sums/) | Practice test sums and exercises |
+| 11 | [`chapter_11_Arrays/`](chapter_11_Arrays/) | Arrays: creation, accessing, adding/removing, searching, iterating, transforming, slicing, concatenating |
+| 12 | [`chapter_12_Functions/`](chapter_12_Functions/) | Functions: basic functions, parameters, return types, function expressions, arrow functions, template literals |
 
 ---
 
@@ -55,7 +58,7 @@ This repository contains learning materials and code examples for **Playwright w
 ## 🧠 Learning Path
 
 ```
-Basics → Variables → Identifiers → Scope/Hoisting → Literals → Operators → Conditionals → Switch → Input → Loops
+Basics → Variables → Identifiers → Scope/Hoisting → Literals → Operators → Conditionals → Switch → Input → Loops → Practice Tests → Arrays → Functions
 ```
 
 ---

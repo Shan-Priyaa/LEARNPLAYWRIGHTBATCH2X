@@ -2,9 +2,9 @@ function normalizeJsBasicsLabel(label) {
   let text = "Hello I Am Learning ";
   text = text.trim();
   text = text.toLocaleLowerCase();
-  text = text.replaceAll("", "-");
-  let result = "jsbasics" + text;
+  text = text.replaceAll(" ", "-");
+  let result = "jsbasics" +"-"+ text;
   return(result)
 console.log(result);
 }
-normalizeJsBasicsLabel();
+console.log(normalizeJsBasicsLabel());
