@@ -18,3 +18,9 @@ function isValidJsBasicsIdentifier(name)
   
 }
 console.log(isValidJsBasicsIdentifier("let"));
+
+// Rules:
+// - Value must be a non-empty string after trimming.
+// - It must start with a letter, underscore, or dollar sign.
+// - Remaining characters may include letters, digits, underscore, or dollar sign.
+// - Reject reserved words used in this chapter: let, const, var, class, function, return

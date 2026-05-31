@@ -8,3 +8,9 @@ function normalizeJsBasicsLabel(label) {
 console.log(result);
 }
 console.log(normalizeJsBasicsLabel());
+
+// Rules:
+// - Trim leading and trailing spaces.
+// - Convert text to lowercase.
+// - Replace non-alphanumeric groups with a single hyphen.
+// - Prefix the result with "js-basic-".

@@ -21,3 +21,10 @@ console.log(failed);
 console.log(skipped);
 }
 summarizeJsBasicsResults(["PASS", "fail", "skip", "Pass", "FAIL"]);
+
+
+
+// Rules:
+// - Count total items.
+// - Count items containing pass, fail, and skip.
+// - Return an object with total, passed, failed, skipped.
